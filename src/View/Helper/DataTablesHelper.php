@@ -75,7 +75,8 @@ class DataTablesHelper extends Helper
 
         $code = $this->draw("#{$id}", $dtOptions);
 
-        return $table.$this->Html->scriptBlock($code);
+        // return $table.$this->Html->scriptBlock($code);
+        return $table;
     }
 
     /**
